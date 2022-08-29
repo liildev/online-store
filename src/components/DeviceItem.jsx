@@ -13,8 +13,8 @@ const DeviceItem = ({ device }) => {
       md={3}
       className={"mt-3"}
       style={{
-        width: 200,
-        height: 250,
+        width: 300,
+        height: 220,
         cursor: "pointer",
         borderRadius: 5,
         display: "flex",
@@ -24,7 +24,7 @@ const DeviceItem = ({ device }) => {
     >
       <Card>
         <Image
-          style={{ width: "100%", height: "70%", borderRadius: 5 }}
+          style={{ width: "100%", height: "150px", borderRadius: 5 }}
           src={process.env.REACT_APP_API_URL + device.img}
         />
         <div className="text-black-50 mt-1 d-flex justify-content-between align-items-start p-1">
